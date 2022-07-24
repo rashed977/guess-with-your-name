@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Guess</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <header>
+    <label for="name">Name: </label>
+    <input type="text" id="name" placeholder="Type Your Name:" onkeypress="return event.charCode != 32">
+    <button id="btn">Guess</button>
+</header>
+
+    <main>
+        <div id="main-container">
+        <div id="container">
+            <div id="container1">
+                <span>Expected Gender: </span>   
+                <p id="gender"></p>
+            </div>
+
+                <div id="container2"> 
+                <span>Expected Age: </span>  
+                <p id="age"></p>
+                </div>
+
+                <div id="genderimg">
+                    <img id="g-img"  >
+        
+                </div>
+
+
+        </div>
+        <div id="flags-container">
+
+        </div>
+    </div>
+
+        <div id="ls-m-container">
+            <h2>Last Checked Names</h2>
+
+        </div>
+</main>
+    
+    
+</body>
+</html>
